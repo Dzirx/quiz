@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typescript HTML, Module</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1 id="quizTitle"></h1>
+  </div>
+  <footer>
+    <h2>Pytanie <span id="question"></span></h2>
+    <input type="number" id="answer">
+    <div style="display: block;padding: 20px;">
+      <button id="back" style="cursor: pointer;">Poprzednie</button>
+      <button id="next" style="cursor: pointer;">Następne</button>
+      <button id="end" style="cursor: pointer;">Koniec</button>
+      <h4>Czas: <span id="questionTime"></span> </h4>
+      <h5>Czas całkowity: <span id="totalTime"></span></h5>
+    </div>
+
+    <a href="https://kul.pl">Zaawansowane aplikacje sieciowe</a>
+  </footer>
+
+  <script type="module" src="./app.js"></script>
+</body>
+
+</html>
